@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-printf("Size of a char: %ld", sizeof(char));
-printf("Size of an int: %ld", sizeof(int));
-printf("Size of a long int: %ld", sizeof(long));
-printf("Size of a long long: %ld", sizeof(long long));
-printf("Size of a float: %ld", sizeof(float));
-printf("Size of a double: %ld", sizeof(double));
-printf("Size of a long double: %ld", sizeof(long double));
+printf("Size of a char: %ld\n", sizeof(char));
+printf("Size of an int: %ld\n", sizeof(int));
+printf("Size of a long int: %ld\n", sizeof(long));
+printf("Size of a long long: %ld\n", sizeof(long long));
+printf("Size of a float: %ld\n", sizeof(float));
+printf("Size of a double: %ld\n", sizeof(double));
+printf("Size of a long double: %ld\n", sizeof(long double));
 return (0);
 }
