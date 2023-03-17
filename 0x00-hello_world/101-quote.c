@@ -11,6 +11,6 @@ char message2[] = " - Dora Korpar, 2015-10-19\n";
 char result[100];
 strcpy(result, message1);
 strcat(result, message2);
-write(STDERR_FILENO, result, sizeof(message) - 1);
+write(STDERR_FILENO, result, sizeof(result) - 1);
 return (1);
 }
