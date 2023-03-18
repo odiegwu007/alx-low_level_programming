@@ -8,10 +8,11 @@
  */
 int main(void)
 {
-char letter = "a";
-while (letter <= "z")
+char c;
+for (c = 'a'; c <= 'z'; ++c)
 {
-putchar(letter);
-letter++;
+putchar(c);
+}
 return (0);
 }
+
