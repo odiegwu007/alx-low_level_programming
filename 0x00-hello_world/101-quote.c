@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-fprintf(stderr, "%s\n", message);
+char m[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+fprintf(stderr, "%s\n", m);
 return (1);
 }
