@@ -1,5 +1,7 @@
 #include <unistd.h>
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -7,7 +9,7 @@
  */
 int main(void)
 {
-fprintf(stderr, "and that piece
-of art is useful\" - Dora Korpar, 2015-10-19\n")
+char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+fprintf(stderr, "%s\n", message);
 return (1);
 }
