@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: 'the print_alphabet program prints the alphabets followed by a newline'
- * Return: should return 0 if successful
+ * print_alphabet: print the alphabet followed by a newline
+ * Return: void
  */
 void print_alphabet(void)
 {
