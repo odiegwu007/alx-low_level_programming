@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: 'program prints the alphabets followed by a newline'
+ * Description: 'the print_alphabet program prints the alphabets followed by a newline'
  * Return: should return 0 if successful
  */
 void print_alphabet(void)
