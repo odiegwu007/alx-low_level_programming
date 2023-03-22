@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 /**
  * _islower - prints 1 if character is lowercase
