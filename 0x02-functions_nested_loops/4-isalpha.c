@@ -1,7 +1,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * _islower - prints 1 if character is lowercase or uppercase
+ * _isalpha - prints 1 if character is lowercase or uppercase
  * @c: character to be checked
  * Return: should return 1 if lowercase
  */
