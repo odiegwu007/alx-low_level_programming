@@ -13,7 +13,7 @@ int num;
 int d;
 if (c < 0)
 {
-num = num * -1;
+num = c * -1;
 }
 else
 {
