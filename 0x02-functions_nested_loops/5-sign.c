@@ -5,8 +5,11 @@
  * @c: character to be checked
  * Return: should return 1, -1 and 0
  */
-int print_sign(int c)
+int print_sign(int n)
 {
+char plus = '+';
+char neg = '-';
+char zero = '0';
 if (n > 0)
 {
 putchar(plus);
