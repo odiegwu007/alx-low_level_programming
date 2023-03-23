@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_sign - prints symbols
- * @c: character to be checked
+ * @n: character to be checked
  * Return: should return 1, -1 and 0
  */
 int print_sign(int n)
