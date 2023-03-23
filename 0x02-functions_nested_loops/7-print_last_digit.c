@@ -11,7 +11,7 @@ int print_last_digit(int c)
 {
 int num;
 int d;
-if (c == INT_MIN)
+if (c < 0)
 {
 num = 0;
 }
