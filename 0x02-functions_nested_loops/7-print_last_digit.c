@@ -13,11 +13,11 @@ int num;
 int d;
 if (c < 0)
 {
-num = 0;
+num = abs(c) % 10;
 }
 else
 {
-num = abs(c) % 10;
+num = c % 10;
 }
 d = num + '0';
 _putchar(d);
