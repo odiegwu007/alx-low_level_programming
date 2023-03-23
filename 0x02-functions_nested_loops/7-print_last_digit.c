@@ -14,5 +14,5 @@ int d;
 num = abs(c) % 10;
 d = num + '0';
 _putchar(d);
-return (num)
+return (num);
 }
