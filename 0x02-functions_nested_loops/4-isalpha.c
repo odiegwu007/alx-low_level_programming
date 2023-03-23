@@ -1,15 +1,17 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * _isalpha - prints 1 if character is lowercase or uppercase
+ * _isalpha - prints 1 if character is alphabet, lowercase or uppercase
  * @c: character to be checked
- * Return: should return 1 if lowercase
+ * Return: should return 1 if lowercase, uppercase, or alphabet
  */
 int _isalpha(int c)
 {
-if (isalpha(c) && islower(c) || isupper(c))
+if (isalpha(c))
 {
+if(islower(c) || isupper(c)){
 return (1);
+}
 }
 else
 {
