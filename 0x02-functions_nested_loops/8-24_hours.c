@@ -2,8 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * print_last_digit - prints the last digit of a number in its absolute state
- * @c: character to be checked
+ * jack_bauer - prints 00:00 - 23:59
  * Return: should return the result of num
  */
 
@@ -15,9 +14,9 @@ int h;
 int m;
 int s;
 int n;
-for (i = 0; i<24; i++)
+for (i = 0; i < 24; i++)
 {
-for (j = 0; j<60; j++)
+for (j = 0; j < 60; j++)
 {
 h = (i / 10) + '0';
 m = (i % 10) + '0';
