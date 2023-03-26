@@ -18,14 +18,19 @@ y = i * j;
 if (y < 10)
 {
 a = y;
+_putchar(' ');
 _putchar(a + '0');
+if (j < 9)
+{
+_putchar(',');
+_putchar(' ');
+}
 }
 else
 {
 a = y / 10;
 _putchar((y / 10) + '0');
 _putchar((y % 10) + '0');
-}
 if (j < 9)
 {
 _putchar(',');
