@@ -13,7 +13,7 @@ int num;
 int d;
 if (c < 0)
 {
-num = c * -1;
+num = abs(c) % 10;
 }
 else
 {
