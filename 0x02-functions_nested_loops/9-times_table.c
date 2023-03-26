@@ -12,29 +12,34 @@ int i;
 int j;
 for (i = 0; i < 10; i++)
 {
-for(j = 0; j < 10; j++)
+for (j = 0; j < 10; j++)
 {
 y = i * j;
 if (y < 10)
 {
 a = y;
-putchar(a + '0');
-if(j < 9){
-putchar(',');
+_putchar(a + '0');
+if (j < 9)
+{
+_putchar(',');
 }
-putchar(' ');
+_putchar(' ');
 }
 else
 {
 a = y / 10;
-putchar(y / 10 + '0');
-putchar(y % 10 + '0');
-if(j < 9){
-putchar(',');
+_putchar(y / 10 + '0');
+_putchar(y % 10 + '0');
+if (j < 9)
+{
+_putchar(',');
 }
 }
-putchar(' ');
+if (j > 1)
+{
+_putchar(' ');
 }
-putchar('\n');
+}
+_putchar('\n');
 }
 }
