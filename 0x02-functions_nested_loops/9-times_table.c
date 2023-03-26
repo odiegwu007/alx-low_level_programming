@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * times_table - prints the 9 times table
  * Description: 'program prints _putchar'
  * Return: should return 0 if successful
  */
