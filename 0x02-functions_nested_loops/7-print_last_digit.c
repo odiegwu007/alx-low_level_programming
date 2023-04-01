@@ -14,7 +14,7 @@ int d;
 
 if (c < 0)
 {
-num = abs(c) % 10;
+num = -(abs(c) % 10);
 }
 else
 {

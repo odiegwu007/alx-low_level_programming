@@ -35,7 +35,7 @@ if (j < 9)
 _putchar(',');
 }
 }
-if (j > 1)
+if (j > -1)
 {
 _putchar(' ');
 }
