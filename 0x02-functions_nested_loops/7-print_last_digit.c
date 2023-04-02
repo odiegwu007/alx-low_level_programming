@@ -11,10 +11,19 @@ int print_last_digit(int c)
 {
 int num;
 int d;
-num = -(abs(c) % 10);
+long long h;
 if (c < 0)
 {
 num = abs(c) % 10;
+if(num > 0)
+{
+num = num;
+}
+else
+{
+h = c;
+num = -(abs(h) % 10);
+}
 }
 else
 {
