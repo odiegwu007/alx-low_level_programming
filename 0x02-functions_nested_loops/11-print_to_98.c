@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 /**
  * print_to_98 - Prints all natural numbers to 98
@@ -84,8 +85,6 @@ _putchar(h + '0');
 _putchar(',');
 _putchar(' ');
 }
-//putchar(h + '0');
-//putchar(',');
 }
 else
 {
