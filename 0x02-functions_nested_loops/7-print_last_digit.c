@@ -22,7 +22,7 @@ num = num;
 else
 {
 h = c;
-num = -(abs(h) % 10);
+num = - (abs(h) % 10);
 }
 }
 else
