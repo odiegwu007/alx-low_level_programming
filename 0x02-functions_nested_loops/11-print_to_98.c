@@ -29,6 +29,7 @@ _putchar(',');
 _putchar(' ');
 }
 }
+_putchar('\n');
 }
 if (n >= 98)
 {
@@ -58,6 +59,7 @@ _putchar(',');
 _putchar(' ');
 }
 }
+_putchar('\n');
 }
 
 if (n < 0)
@@ -102,5 +104,6 @@ _putchar(' ');
 }
 }
 }
+_putchar('\n');
 }
 }
