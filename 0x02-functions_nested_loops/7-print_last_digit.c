@@ -15,14 +15,14 @@ int h;
 if (c < 0)
 {
 num = abs(c) % 10;
-if(num > 0)
+if (num > 0)
 {
 num = num;
 }
 else
 {
 h = c;
-num = - (abs(h) % 10);
+num = -(abs(h) % 10);
 }
 }
 else
